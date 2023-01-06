@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #2A324B;
+    width: 100%;
+    height: 100px;
+    padding-left: 1.5%;
+}
+
+.logo {
+    width: 50%;
+    text-align: left;
+    line-height: 50px;
+    padding: 25px 0;
+}
+
+h1 {
+    font-size: 30px;
+    color: #C7CCDB;
+    letter-spacing: 4px;
+}
+
+nav {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    line-height: 100px;
+    padding-right: 1.5%;
+}
+
+
+nav a {
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: #C7CCDB;
+    margin: 0 1px;
+    font-weight: 500;
+    height: 100px;
+    padding: 0 4%;
+    text-decoration: 2px underline solid #C7CCDB;
+}
+
+nav a:hover {
+    background: #C7CCDB;
+    color: #2A324B;
+    text-decoration: 2px underline solid #2A324B;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner {
+    display: flex;
+    justify-content: flex-end;
+    background-image: url(/banner.jpeg);
+    background-size: auto;
+    background-position: 50% 50%;
+}
+
+#banner-text {
+    background: #2A324B;
+    color: #C7CCDB;
+    text-align: center;
+    margin: 100px 20px 10px 20px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+#resume {
+    display: flex;
+    margin-top: 20px;
+}
+
+#about-me {
+    display: flex;
+    margin-top: 20px;
+}
+
+#work {
+    display: flex;
+    margin-top: 20px;
+
+}
+
+#contact-me {
+    display: flex;
+    margin-top: 20px;
+}
+
+#contact-link {}
+
+.header {
+    background-color: white;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    padding-right: 10px;
+    width: 250px;
+    border-right: 4px solid #2A324B
+}
+
+.about-me-content {
+    background: white;
+    width: 75%;
+    display: inline-block;
+    text-align: left;
+    padding: 20px;
+    margin: 15px;
+}
+
+
+.content {
+    background: white;
+    width: 75%;
+    display: inline-block;
+    padding: 20px;
+    margin: 10px;
+}
+
+.optimized-img {
+
+    max-width: 100%;
+    max-height: auto;
+    border: 5px solid #767B91;
+}
+
+.content img:hover {
+    transition: all 0.5s;
+    opacity: .5;
+}
+
+.overlay {
+    position: relative;
+    color: #C7CCDB;
+}
+
+.overlaytext {
+    position: absolute;
+    left: 20px;
+    bottom: 40px;
+    background: #767B91;
+    padding: 15px;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 75%;
+    list-style-type: none;
+    color: #C7CCDB;
+}
+
+ul li {
+    display: inline-block;
+    text-align: center;
+    text-decoration: 2px underline solid #2A324B;
+    font-size: 20px;
+    color: #2A324B;
+    margin: 15px;
+    height: 100px;
+    padding: 20px;
+}
+
+@media screen and (max-width:928px) {
+    section {
+        width: 95%;
+    }
+
+    nav a {
+        text-decoration: none;
+        letter-spacing: 1px;
+        font-size: 18px;
+        color: #C7CCDB;
+        margin: 0 1px;
+        font-weight: 500;
+        height: 100px;
+        padding: 0 3%;
+        text-decoration: 2px underline solid #C7CCDB;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    ul li {
+        display: inline-block;
+        text-align: start;
+        margin: 0px;
+        padding: 25px;
+        font-size: 15px;
+    }
+
+    .header {
+        font-size: 30px;
+        width: 160px;
+    }
+}
+
+@media screen and (max-width:682px) {
+    section {
+        width: 95%;
+    }
+
+    nav a {
+        text-decoration: none;
+        letter-spacing: 1px;
+        font-size: 15px;
+        color: #C7CCDB;
+        margin: 0 1px;
+        font-weight: 500;
+        height: 100px;
+        padding: 0 2%;
+        text-decoration: 2px underline solid #C7CCDB;
+    }
+
+
+    ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    ul li {
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        margin: 0px;
+        padding: 25px;
+        font-size: 15px;
+    }
+
+    .header {
+        font-size: 25px;
+        width: 110px;
+    }
+
+}
+
+@media screen and (max-width:512px) {
+    h1 {
+        font-size: 27px;
+        letter-spacing: 2px;
+    }
+
+    nav a {
+        text-decoration: none;
+        letter-spacing: 2px;
+        font-size: 15px;
+        color: #C7CCDB;
+        margin: 0 1px;
+        font-weight: 500;
+        height: 100px;
+        padding: 0 2%;
+        text-decoration: 2px underline solid #C7CCDB;
+    }
+
+    .header {
+        font-size: 25px;
+        width: 100px;
+    }
+
+}
