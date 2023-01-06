@@ -24,7 +24,7 @@ header {
 
 h1 {
     font-size: 30px;
-    color: #C7CCDB;
+    color:white;
     letter-spacing: 4px;
 }
 
@@ -43,16 +43,16 @@ nav a {
     text-decoration: none;
     letter-spacing: 2px;
     font-size: 20px;
-    color: #C7CCDB;
+    color:white;
     margin: 0 1px;
     font-weight: 500;
     height: 100px;
     padding: 0 4%;
-    text-decoration: 2px underline solid #C7CCDB;
+    text-decoration: 2px #C7CCDB;
 }
 
 nav a:hover {
-    background: #C7CCDB;
+    background: rgb(28, 122, 193);
     color: #2A324B;
     text-decoration: 2px underline solid #2A324B;
 
@@ -66,24 +66,20 @@ main {
 .banner {
     display: flex;
     justify-content: flex-end;
-    background-image: url(/banner.jpeg);
+    background-image: url(https://pixy.org/src2/575/thumbs350/5759310.jpg);
     background-size: auto;
-    background-position: 50% 50%;
+    background-position: 50% 65%;
 }
 
 #banner-text {
     background: #2A324B;
-    color: #C7CCDB;
+    color: white;
     text-align: center;
     margin: 100px 20px 10px 20px;
     padding-top: 10px;
     padding-right: 10px;
     padding-left: 10px;
     padding-bottom: 10px;
-}
-#resume {
-    display: flex;
-    margin-top: 20px;
 }
 
 #about-me {
@@ -95,6 +91,11 @@ main {
     display: flex;
     margin-top: 20px;
 
+}
+
+#resume {
+    display: flex;
+    margin-top: 20px;
 }
 
 #contact-me {
@@ -125,6 +126,12 @@ main {
     margin: 15px;
 }
 
+.resume-img, .linkedin-img {
+    background: white;
+    display: inline-block;
+    padding: 20px;
+    margin:10px;
+}
 
 .content {
     background: white;
@@ -133,6 +140,8 @@ main {
     padding: 20px;
     margin: 10px;
 }
+
+
 
 .css-img {
 
@@ -148,14 +157,14 @@ main {
 
 .overlay {
     position: relative;
-    color: #C7CCDB;
+    color: black;
 }
 
 .overlaytext {
     position: absolute;
     left: 20px;
     bottom: 40px;
-    background: #767B91;
+    background: rgb(28, 122, 193);
     padding: 15px;
 }
 
