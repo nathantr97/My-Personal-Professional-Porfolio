@@ -155,7 +155,7 @@ main {
     display: inline-block;
     padding: 20px;
     margin: 25px;
-    border: 5px solid grey;
+    border: 5px solid #1c83dcd9;
     border-radius: 10px;
 
 
@@ -175,7 +175,7 @@ main {
 .css-img {
     max-width: 100%;
     max-height: auto;
-    border: 5px solid #767B91;
+    border: 5px solid #1c83dcd9;
 }
 
 .content img:hover {
