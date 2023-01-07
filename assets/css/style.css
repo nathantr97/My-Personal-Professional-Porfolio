@@ -203,7 +203,7 @@ main {
     padding: 15px;
 }
 
-#textButton {
+/* #textButton {
     background-color: none;
     border: none;
     margin: 5px;
@@ -222,7 +222,7 @@ main {
 #textButton:hover{
     background-color: rgb(28, 122, 193);
 
-}
+} */
 
 ul {
     display: flex;
