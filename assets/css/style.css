@@ -214,7 +214,7 @@ ul li {
     color: #2A324B;
     margin: 15px;
     height: 100px;
-    padding: 0px;
+    padding: 20px;
 }
 
 @media screen and (max-width:928px) {
