@@ -8,10 +8,10 @@ and applications as a Full Stack Developer. This portfolio webpage is a great op
 
 ## Installation
 
--First, you need to create a repo on GitHub and clone your starting files to your device. 
--Use Terminal to navigate the cloned files on your device. 
--Write code in VS and complete Git flow throughout the process to save all changes made to Github. 
--Publish site and make sure to run tests on all features and requirements.
+<li>First, you need to create a repo on GitHub and clone your starting files to your device. </li>
+<li>Use Terminal to navigate the cloned files on your device.</li>
+<li>Write code in VS and complete Git flow throughout the process to save all changes made to Github.</li>
+<li>Publish site and make sure to run tests on all features and requirements. </li>
 
 ## Links
 <li> Github Repo URL: </li>
@@ -42,6 +42,10 @@ https://nathantr97.github.io/My-Personal-Professional-Porfolio/
 
 ## Credits
 
-insert links to w3school
-insert links for images
-insert links for guidance 
+<li> CSS Syntex </li>
+
+https://www.w3schools.com/css/css_syntax.asp
+
+<li> CSS Dimension Guide </li>
+
+https://www.w3schools.com/css/css_dimension.asp
